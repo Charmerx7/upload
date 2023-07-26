@@ -2,6 +2,7 @@ import express from "express";
 import ffmpeg from "fluent-ffmpeg";
 
 const app = express(); 
+app.use(express.json());
 
 app.post("/process-video", (req, res) => {
     // Get path of the input video file from the body 
@@ -15,7 +16,8 @@ app.post("/process-video", (req, res) => {
     ffmpeg(inputFilePath)
         .outputOptions("-vf", "scale=-1:360") // 360p
         .on("end", () => {
-            res.status(200).send("Processing finished successfully.")
+            console.log("Processing finished successfully");
+            res.status(200).send("Processing finished successfully.");
         })
         .on("error", (err) => {
             console.log(`An error occurred: ${err.message}`);
