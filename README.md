@@ -1,5 +1,5 @@
 # Full Stack Development - Tutorial
-Full Stack - Upload/Watch Videos
+Upload/Watch Videos
 
 Presented by neetcode.io
 
