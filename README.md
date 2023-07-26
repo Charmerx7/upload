@@ -36,3 +36,5 @@ Node & NPM
 Git => GitHub
 
 Docker
+
+Thunder Client extension in VSC - send request to endpoint
