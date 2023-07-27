@@ -9,7 +9,7 @@ WSL2
 
 Git and GitHub
 
-Node
+Node/npm/npx
 
 TypeScript
 
@@ -53,4 +53,4 @@ Build container > store image > run image > setup topic/subscription > create bu
 
 **Web App**
 
-TBD
+Create app (next.js) > 
