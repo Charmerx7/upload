@@ -5,6 +5,8 @@ Presented by neetcode.io
 
 **Tech Stack**
 
+Node
+
 TypeScript
 
 Next.js
@@ -21,20 +23,30 @@ Firebase Functions
 
 Firebase Firestone
 
-Google Cloud Storage
+CLI: gcloud and gsutil
 
-Google Cloud Pub/Sub
+Google Cloud Artifact Registry
 
 Google Cloud Run
 
+Google Cloud Pub/Sub
+
+Google Cloud Storage
+
 **Progress**
 
-WSL2
+**Local**
 
-Node & NPM
+WSL2 > Git/GitHub > Node/NPM/Express/Typescript/FFmpeg > Docker > Thunder Client (VSC extension)
 
-Git => GitHub
+Connect WSL > connect git > install libraries/dependencies > create image > run image > send POST to endpoint
 
-Docker
+**Google Cloud Back End**
 
-Thunder Client extension in VSC - send request to endpoint
+Cloud Project > Docker > Artifact Registry > Cloud Run > Pub/Sub > Storage Bucket
+
+Build container > store image > run image > setup topic/subscription > create buckets > cli: create notification (sub)
+
+**Web App**
+
+TBD
