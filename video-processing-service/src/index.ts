@@ -23,7 +23,8 @@ app.post("/process-video", (req, res) => {
             console.log(`An error occurred: ${err.message}`);
             res.status(500).send(`Internal Server Error: ${err.message}`);
         })
-        .save(outputFilePath);    
+        .save(outputFilePath);
+    
 });
 
 const port = process.env.PORT || 3000;
