@@ -5,17 +5,23 @@ Presented by neetcode.io
 
 **Tech Stack**
 
+WSL2
+
+Git and GitHub
+
 Node
 
 TypeScript
-
-Next.js
 
 Express.js
 
 Docker
 
 FFmpeg
+
+Thunder Client
+
+Next.js
 
 Firebase Auth
 
@@ -32,8 +38,6 @@ Google Cloud Run
 Google Cloud Pub/Sub
 
 Google Cloud Storage
-
-**Progress**
 
 **Local**
 
