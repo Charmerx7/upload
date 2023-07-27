@@ -53,4 +53,4 @@ Build container > store image > run image > setup topic/subscription > create bu
 
 **Web App**
 
-Create app (next.js) > 
+Create app (next.js) > create pages & navbar > install Firebase and start app > add Firebase SDK >
