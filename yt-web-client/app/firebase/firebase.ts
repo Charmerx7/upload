@@ -1,5 +1,5 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+import {initializeApp} from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 import { 
@@ -9,6 +9,8 @@ import {
     onAuthStateChanged,
     User
 } from "firebase/auth"
+import {getFunctions} from 'firebase/functions';
+
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -25,6 +27,7 @@ const app = initializeApp(firebaseConfig);
 
 // Initialize authorization
 const auth = getAuth(app);
+export const functions = getFunctions();
 
 // Signs the user in with a Google popup. Returns promise that resolves with user's credentials.
 export function signInWithGoogle() {
