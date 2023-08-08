@@ -7,10 +7,10 @@ export default async function Home() {
   const videos = await getVideos();
 
   return (
-    <main className={styles.main}>
+    <main>
       {
         videos.map((video) => (
-          <Link href={`/watch?v=${video.filename}`}>
+          <Link href={`/watch?v=${video.filename}`} key={video.id}>
             <Image src={`/vidDefault.png`} alt='video' width={120} height={80}
               className={styles.thumbnail} />
           </Link>
@@ -19,3 +19,5 @@ export default async function Home() {
     </main>
   )
 }
+
+export const revalidate = 30;
